@@ -1,0 +1,41 @@
+// scss/custom.scss
+
+// 원하는 폰트로 설정 (웹폰트도 가능)
+$font-family-sans-serif: 'Noto Sans KR', system-ui, -apple-system, sans-serif;
+$font-family-base: $font-family-sans-serif;
+
+// Bootstrap 변수 덮어쓰기
+$theme-colors: (
+  "primary": #0057a4,
+  "secondary": #6c757d,
+  "success": #4caf50,
+  "danger": #dc3741,
+  "warning": #ffc107,
+  "info": #0dcaf0,
+  "light": #f8f9fa,
+  "dark": #212529
+
+  // KOWEPO
+  //primary - #0061aa
+  //danger - #e0134c
+
+);
+
+// 브레이크포인트 커스터마이징
+$grid-breakpoints: (
+  xs: 0,
+  sm: 600px,
+  md: 800px,
+  lg: 1000px,
+  xl: 1200px,
+  xxl: 1400px,
+  xxxl: 1840px
+);
+
+// border-radius 커스터마이징
+$border-radius: 0.5rem;
+$border-radius-lg: 1rem;
+$border-radius-pill: 9999px;
+
+// Bootstrap 전체 불러오기 (항상 마지막에)
+@import "../node_modules/bootstrap/scss/bootstrap";

@@ -1,0 +1,23 @@
+/* footer.css */
+footer {
+	color: var(--bs-body-color);
+	background-color: var(--bs-light);
+	height: var(--footer-height);
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+footer .logo {
+	width: 80px;
+	height: auto;
+	opacity: .4;
+}
+
+footer .copyright {
+	font-size: 14px;
+	letter-spacing: normal;
+	opacity: .7;
+	text-align: left;
+}

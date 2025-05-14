@@ -1,0 +1,25 @@
+{
+  "name": "bs-basic",
+  "version": "1.0.0",
+  "description": "부트스트랩 기본 프로젝트",
+  "main": "index.js",
+  "scripts": {
+	"build": "sass scss/custom.scss dist/bootstrap.css",
+	"dev": "sass --watch scss/custom.scss dist/bootstrap.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yjkimpomit/bootstrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yjkimpomit/bootstrap/issues"
+  },
+  "homepage": "https://github.com/yjkimpomit/bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.6",
+    "sass": "^1.88.0"
+  }
+}
