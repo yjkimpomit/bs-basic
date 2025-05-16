@@ -40,6 +40,10 @@ a[aria-expanded="true"] .toggle-icon {
 /* 메뉴 레이블 */
 .menu-label {
 	font-size: 0.875rem;
+	font-weight: 700;
+	color: var(--bs-body-color);
+	margin-top: calc(var(--bs-spacer) * 1.5);
+	margin-bottom: calc(var(--bs-spacer) * .25);
 }
 
 /* 메뉴 스타일 */

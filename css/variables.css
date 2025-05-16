@@ -5,5 +5,8 @@
 
 	--header-height: 80px;
 	--footer-height: 48px;
-    --bs-breakpoint-xxxl: 1840px;
+    
+	--bs-breakpoint-xxxl: 1840px;
+	--bs-spacer: 16px;
+
 }
