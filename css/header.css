@@ -1,5 +1,9 @@
 /* header.css */
-header .logo {
+header .navbar-brand {
 	width: 128px;
-	height: auto;
+	height: 40px;	
+	background-image: url("/images/pomit_origin_horizontal.svg");
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 128px auto;
 }

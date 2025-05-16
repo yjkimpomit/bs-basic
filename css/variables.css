@@ -1,6 +1,8 @@
 /* variables.css */
 
 :root {
+	--leftmenu-width: 320px;
+
 	--header-height: 80px;
 	--footer-height: 48px;
     --bs-breakpoint-xxxl: 1840px;

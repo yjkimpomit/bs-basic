@@ -1,0 +1,61 @@
+/* leftmenu.css */
+.leftmenu.offcanvas {
+	width: var(--leftmenu-width);
+}
+.leftmenu .logo {
+	width: 100%;
+	height: 40px;	
+	background-image: url("/images/pomit_origin_horizontal.svg");
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 128px auto;
+
+	padding-left: 136px;
+
+	display: flex;
+	align-items: center;
+}
+
+/* navbar-nav */
+.leftmenu ol, .leftmenu ul {
+    padding-left: 0;
+	list-style-type: none;
+}
+
+.leftmenu .group-title {
+	font-size: 14px;
+	font-weight: 700;
+}
+
+/* toggle icon */
+.toggle-icon {
+	transition: transform 0.2s;
+}
+
+a[aria-expanded="true"] .toggle-icon {
+	transform: rotate(90deg);
+	/* ▼로 회전 */
+}
+
+/* 메뉴 레이블 */
+.menu-label {
+	font-size: 0.875rem;
+}
+
+/* 메뉴 스타일 */
+.list-group-item {
+	border: none;
+	border-bottom: 1px solid #dee2e6;
+	/* Bootstrap 기본 border-color */
+	border-radius: 0;
+}
+
+.list-group-item.active {
+	font-weight: bold;
+	color: #0d6efd;
+	/* Bootstrap 기본 primary 색상 */
+	background-color: #e9f2ff;
+	/* 선택 시 배경색 (선택사항) */
+}
+  
+

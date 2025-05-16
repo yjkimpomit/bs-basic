@@ -11,7 +11,9 @@ footer {
 
 footer .logo {
 	width: 80px;
-	height: auto;
+	height: 32px;
+	background-image: url("/images/pomit_black_horizontal.svg");
+	background-size: 80px auto;
 	opacity: .4;
 }
 
